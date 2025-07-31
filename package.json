@@ -1,11 +1,11 @@
 {
-  "name": "notes_books_v2",
+  "name": "toDoList",
   "private": true,
   "version": "1.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "vite build --base=/notes_books_v2/",
+    "build": "vite build --base=/toDoList/",
     "preview": "vite preview",
     "push": "git add .; git commit -m 'update'; git push;"
   },
@@ -20,5 +20,16 @@
     "modern-normalize": "^3.0.1",
     "vite-plugin-full-reload": "^1.2.0",
     "vite-plugin-html-inject": "^1.1.2"
-  }
+  },
+  "description": "Цей проект було створено за допомогою Vite. Для знайомства та налаштування додаткових можливостей [звернись до документації](https://vitejs.dev/).",
+  "main": "vite.config.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EddNik/toDoList.git"
+  },
+  "author": "",
+  "bugs": {
+    "url": "https://github.com/EddNik/toDoList/issues"
+  },
+  "homepage": "https://github.com/EddNik/toDoList#readme"
 }
